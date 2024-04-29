@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-13T23:48:09 EDT" name="Suite" finished-at="2024-04-13T23:48:37 EDT" duration-ms="27467">
+    <groups>
+    </groups>
+    <test started-at="2024-04-13T23:48:09 EDT" name="Test" finished-at="2024-04-13T23:48:37 EDT" duration-ms="27467">
+      <class name="bookStoreTestingSuite.LikeAndDislike">
+        <test-method is-config="true" signature="lunchApp()[pri:0, instance:bookStoreTestingSuite.LikeAndDislike@52b1beb6]" started-at="2024-04-13T23:48:09 EDT" name="lunchApp" finished-at="2024-04-13T23:48:19 EDT" duration-ms="9923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApp -->
+        <test-method signature="LikeBooks()[pri:0, instance:bookStoreTestingSuite.LikeAndDislike@52b1beb6]" started-at="2024-04-13T23:48:19 EDT" name="LikeBooks" finished-at="2024-04-13T23:48:25 EDT" duration-ms="5535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LikeBooks -->
+        <test-method is-config="true" signature="quitDrivers()[pri:0, instance:bookStoreTestingSuite.LikeAndDislike@52b1beb6]" started-at="2024-04-13T23:48:25 EDT" name="quitDrivers" finished-at="2024-04-13T23:48:25 EDT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDrivers -->
+        <test-method is-config="true" signature="lunchApp()[pri:0, instance:bookStoreTestingSuite.LikeAndDislike@52b1beb6]" started-at="2024-04-13T23:48:25 EDT" name="lunchApp" finished-at="2024-04-13T23:48:33 EDT" duration-ms="8323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApp -->
+        <test-method signature="DislikeBooks()[pri:0, instance:bookStoreTestingSuite.LikeAndDislike@52b1beb6]" started-at="2024-04-13T23:48:33 EDT" name="DislikeBooks" finished-at="2024-04-13T23:48:37 EDT" depends-on-methods="bookStoreTestingSuite.LikeAndDislike.LikeBooks" duration-ms="3434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DislikeBooks -->
+        <test-method is-config="true" signature="quitDrivers()[pri:0, instance:bookStoreTestingSuite.LikeAndDislike@52b1beb6]" started-at="2024-04-13T23:48:37 EDT" name="quitDrivers" finished-at="2024-04-13T23:48:37 EDT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDrivers -->
+      </class> <!-- bookStoreTestingSuite.LikeAndDislike -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="Testinglikeanddislike">
+		<classes>
+			<class name="bookStoreTestingSuite.LikeAndDislike" />
+		</classes>
+	</test>
+	<test
+		name="Testingorderig">
+		<classes>
+			<class name="bookStoreTestingSuite.OrderBooks" />
+		</classes>
+	</test>
+	<test
+		name="TestingFiltering">
+		<classes>
+			<class name="bookStoreTestingSuite.FilterAndSearch" />
+		</classes>
+	</test>
+</suite>
+
