@@ -14,7 +14,7 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
+    javaHomeOption: '18.0.2'
     jdkVersionOption: '1.8'
     jdkUserInputPath: "/Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home"
     jdkArchitectureOption: 'x64'
